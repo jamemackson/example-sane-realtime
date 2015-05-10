@@ -1,0 +1,12 @@
+{
+  "apps": [
+    "client",
+    "server"
+  ],
+  "disableAnalytics": false,
+  "database": "disk",
+  "docker": false,
+  "verbose": false,
+  "skipNpm": false,
+  "skipBower": false
+}
