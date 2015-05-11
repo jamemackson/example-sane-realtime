@@ -8,6 +8,12 @@ SANE Example on using Realtime socket.io connections
 
 This project is a very simple example of setting up a basic realtime application.
 
+This project implements a basic activity feed that is entirely driven based on the input form. Open the running project up in multiple browsers to view each connected client get updated with new activity messages when one is created in any of the clients.
+
+read the document [docs/README.md](docs/README.md) for more information on the project was created.
+
+> note that docs/README.md still needs to be completed - currently just a stub.
+
 Open to contributors
 ==========================
 This project is made for learning. There is no better experience for that than doing. We strongly encourage you to get involved in the project. If you're new to development or new to these technologies, this gives you the unique opportunity to join a real team of experienced professionals which uses best practices and adopts the latest in the field to solve real world requirements. It can teach you to make web apps better than any school or book. The project uses [Waffle](https://waffle.io/mgenev/how-to-sane) and this Github repo for management. It is very straight forward to begin making contributions and if you are interested please inquire in our [Gitter chat channel](https://gitter.im/artificialio/sane).
