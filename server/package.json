@@ -14,7 +14,8 @@
     "sails-disk": "^0.10.7",
     "sails-generate-ember-blueprints": "0.0.7",
     "sails-hook-autoreload": "^0.11.5",
-    "sails-hook-dev": "git://github.com/balderdashy/sails-hook-dev"
+    "sails-hook-dev": "git://github.com/balderdashy/sails-hook-dev",
+    "sails-mongo": "^0.11.1"
   },
   "scripts": {
     "start": "node app.js",

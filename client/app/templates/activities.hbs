@@ -1,0 +1,21 @@
+{{outlet}}
+<div class="ui padded grid">
+  <div class="eight wide column">
+    {{! put activity form here }}
+    <form class="ui form">
+      <div class="field">
+        <label>Action Performed By</label>
+        <input id="activity-performed-by" placeholder="enter who performed the activity here" type="text">
+      </div>
+      <div class="field">
+        <label>Description</label>
+        <input id="activity-description" placeholder="enter the description of the activity" type="text">
+      </div>
+      <button class="ui button" {{action 'createActivity'}}>Create Activity</button>
+    </form>
+  </div>
+  <div class="eight wide column">
+    <h2>Activity List</h2>
+    {{activity-list model=model store=store}}
+  </div>
+</div>

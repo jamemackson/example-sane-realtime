@@ -18,6 +18,15 @@ module.exports = function(environment) {
       // when it is created
     }
   };
+  ENV.contentSecurityPolicy =  {
+    'default-src': "'self' unsafe-inline https://maps.googleapis.com",
+    'font-src': "*",
+    'connect-src': "'self' https://maps.googleapis.com ws://localhost:4200",
+    'img-src': "*",
+    'style-src': "* 'unsafe-inline'",
+    'frame-src': "*",
+    'script-src': "'self' 'unsafe-eval' 'unsafe-inline' *.googleapis.com *.gstatic.com"
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
