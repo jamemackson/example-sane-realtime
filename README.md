@@ -4,9 +4,9 @@
 [![Stories in Ready](https://badge.waffle.io/jamemackson/example-sane-realtime.png?label=in%20progress&title=InProgress)](https://waffle.io/jamemackson/example-sane-realtime)
 SANE Example on using Realtime socket.io connections
 ==========================
-[HOW-To-Sane](http://github.com/mgenev/how-to-sane) is the official demo app of how to use the [SANE stack](https://github.com/artificialio/sane). It is also the main experiment laboratory for prototyping and spinning off sane add ons.
+[HOW-To-Sane](http://github.com/mgenev/how-to-sane) is the official demo app of how to use the [SANE stack](https://github.com/artificialio/sane). It is also the main experiment laboratory for prototyping and spinning off sane add ons.  If you would like to see SANE in action in a larger context, this is the project for you.
 
-This project is a very simple example of setting up a basic realtime application.
+This project is just a very simple example using SANE for setting up a very basic realtime application.
 
 This project implements a basic activity feed that is entirely driven based on the input form. Open the running project up in multiple browsers to view each connected client get updated with new activity messages when one is created in any of the clients.
 
@@ -16,7 +16,7 @@ read the document [docs/README.md](docs/README.md) for more information on the p
 
 Open to contributors
 ==========================
-This project is made for learning. There is no better experience for that than doing. We strongly encourage you to get involved in the project. If you're new to development or new to these technologies, this gives you the unique opportunity to join a real team of experienced professionals which uses best practices and adopts the latest in the field to solve real world requirements. It can teach you to make web apps better than any school or book. The project uses [Waffle](https://waffle.io/mgenev/how-to-sane) and this Github repo for management. It is very straight forward to begin making contributions and if you are interested please inquire in our [Gitter chat channel](https://gitter.im/artificialio/sane).
+This project is made for learning. There is no better experience for that than doing. We strongly encourage you to get involved in the project. If you're new to development or new to these technologies, this gives you the unique opportunity to join a real team of experienced professionals which uses best practices and adopts the latest in the field to solve real world requirements. It can teach you to make web apps better than any school or book. The project uses [Waffle](https://waffle.io/jamemackson/example-sane-realtime) and this Github repo for management. It is very straight forward to begin making contributions and if you are interested please inquire in our [Gitter chat channel](https://gitter.im/artificialio/sane).
 
 How is it made?
 ==========================
@@ -28,7 +28,7 @@ How is it made?
 + Ember - Client Side MVC Framework
 + MongoDB - Database
 
-### Additional Tools Available
+### Ancillary components used
 + Semantic UI - quick visual styling to make things not ugly
 
 Installation:
